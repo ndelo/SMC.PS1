@@ -1,4 +1,4 @@
-Sample Python Script to used to add new hosts to a Forcepoint NGFW firewall.
+Sample PowerShell Script to used to add new hosts to a Forcepoint NGFW firewall.
 
 This script adds new hosts and creates a new firewall rule that allows a single source either RDP or SSH access to that host.
 
