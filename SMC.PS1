@@ -49,7 +49,8 @@ param (
     }
 "@
  
- [ServerCertificateValidationCallback]::Ignore();
+[ServerCertificateValidationCallback]::Ignore();
+
 function query_by_name([string]$name,[string]$type = 'host') {
     
     if ($type -eq 'host') 
